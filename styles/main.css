@@ -13,12 +13,25 @@
   border-radius: 255px;
 }
 
+@media screen and (max-width: 1439px) {
+  .backgroundImage2 {
+    right: 0;
+    top: 462px;
+    height: 508px;
+    width: 187px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .backgroundImage2 {
+    right: 65px;
+    top: 162px;
+    height: 608px;
+    width: 257px;
+  }
+}
+
 .backgroundImage2 {
   position: absolute;
-  width: 187px;
-  height: 508px;
-  left: 188px;
-  top: 462px;
 
   background: linear-gradient(225deg, #e844ff 0%, #8739ff 100%);
   mix-blend-mode: normal;

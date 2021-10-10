@@ -1,18 +1,45 @@
+@media screen and (max-width: 1439px) {
+  .copy {
+    text-align: center;
+  }
+  .copy h1 {
+    margin-top: 64px;
+  }
+
+  .copy p {
+    margin-left: 32px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .copy {
+    margin-top: 309px;
+    display: inline-block;
+    vertical-align: top;
+    width: 445px;
+  }
+
+  .copy > * {
+    margin-left: 9vw;
+    text-align: left;
+  }
+
+  .copy > p {
+    width: 445px;
+  }
+}
+
 .copy h1 {
-  margin-top: 64px;
   font-family: "Rubik", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 40px;
   line-height: 47px;
-  text-align: center;
-
   color: #3e2753;
 }
 
 .copy p {
   margin-top: 24px;
-  margin-left: 32px;
   margin-right: 32px;
   margin-bottom: 64px;
   font-family: "Rubik", sans-serif;
@@ -20,9 +47,5 @@
   font-weight: normal;
   font-size: 16px;
   line-height: 28px;
-  /* or 175% */
-
-  text-align: center;
-
   color: #a39da9;
 }
