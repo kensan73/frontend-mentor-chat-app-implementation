@@ -1,0 +1,28 @@
+.copy h1 {
+  margin-top: 64px;
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 47px;
+  text-align: center;
+
+  color: #3e2753;
+}
+
+.copy p {
+  margin-top: 24px;
+  margin-left: 32px;
+  margin-right: 32px;
+  margin-bottom: 64px;
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  /* or 175% */
+
+  text-align: center;
+
+  color: #a39da9;
+}

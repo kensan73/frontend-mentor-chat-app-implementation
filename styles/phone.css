@@ -1,0 +1,227 @@
+.phone {
+  z-index: 100;
+  position: relative;
+  margin-top: 64px;
+  margin-left: 64px;
+  margin-right: 64px;
+  background-color: #ffffff;
+  padding: 11px 9px;
+  box-shadow: 0px 30px 60px -10px rgba(62, 39, 83, 0.251202);
+  border-radius: 30px;
+}
+
+.phone .notch {
+  position: absolute;
+  top: 0;
+  width: 129px;
+  height: 29px;
+  left: 60px;
+  background-color: white;
+  border-radius: 0px 0px 14px 14px;
+}
+
+.phone header {
+  padding-top: 30px;
+  padding-bottom: 12px;
+  background: linear-gradient(225deg, #e844ff 0%, #8739ff 100%);
+  box-shadow: 0px 0px 13px rgba(62, 39, 83, 0.251202);
+  border-radius: 20px 20px 6px 6px;
+}
+
+.phone header > * {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.phone header .arrow {
+  padding-top: 3px;
+  margin-left: 15px;
+}
+
+.phone header .recipientPicture {
+  margin-left: 8px;
+}
+
+.phone header .recipientInfo {
+  margin-left: 8px;
+}
+.phone header .recipientInfo h2 {
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 13px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+.phone header .recipientInfo h3 {
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 8px;
+  line-height: 9px;
+
+  color: #d99eff;
+}
+
+.phone header .threeDots {
+  padding-top: 3px;
+  padding-left: 76px;
+}
+.phone .conversation {
+  padding-top: 11px;
+  padding-left: 7px;
+
+  background: #f5f3f7;
+  /*border: 1px solid rgba(62, 39, 83, 0.0509178);*/
+  /*border-radius: 20px;*/
+}
+
+.phone .conversation .receivedMessage {
+  width: 128px;
+  background: #eee5f4;
+  border-radius: 10px 10px 10px 4px;
+
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 8px;
+  line-height: 11px;
+  color: #9341c8;
+
+  padding: 6px 8px;
+}
+
+.phone .conversation .receivedMessage + .receivedMessage {
+  margin-top: 8px;
+}
+
+.phone .conversation .sentMessage {
+  max-width: 128px;
+  background: #ffffff;
+  box-shadow: 0px 10px 5px -5px rgba(62, 39, 83, 0.045318);
+  border-radius: 10px 10px 4px 10px;
+
+  padding: 6px 8px;
+  margin-left: 85px;
+
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 8px;
+  line-height: 11px;
+  color: #6e5d7e;
+}
+
+.phone .conversation .sentMessage + .sentMessage {
+  margin-top: 8px;
+  margin-left: 133px;
+  width: 80px;
+}
+
+.receivedMessage + .sentMessage {
+  margin-top: 8px;
+}
+
+.sentMessage + .receivedMessage {
+  margin-top: 16px;
+}
+
+.phone .conversation .sentPictures ul {
+  margin-top: 16px;
+  margin-left: 77px;
+}
+
+.phone .conversation .sentPictures li {
+  /*box-shadow: 0px 10px 5px -5px rgba(62, 39, 83, 0.045318);*/
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.receivedOrder {
+  background: linear-gradient(225deg, #e844ff 0%, #8739ff 100%);
+  box-shadow: 0px 10px 5px -5px rgba(62, 39, 83, 0.045318);
+  border-radius: 10px 10px 10px 4px;
+
+  margin-top: 8px;
+  position: relative;
+  width: 160px;
+}
+
+.receivedOrder > * {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.receivedOrder > *:first-child {
+  padding-top: 10px;
+  padding-left: 8px;
+  padding-bottom: 10px;
+}
+
+.receivedOrder > *:nth-child(2) {
+  padding-top: 11px;
+  padding-left: 8px;
+
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 8px;
+  line-height: 11px;
+  color: #ffffff;
+}
+
+.receivedOrder > *:nth-child(3) {
+  position: absolute;
+  right: 16px;
+  top: 11px;
+
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 11px;
+  color: #ffffff;
+}
+
+.phone footer {
+  background: #f5f3f7;
+  padding-top: 16px;
+  padding-bottom: 10px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.phone footer div {
+  margin-left: 8px;
+  margin-right: 8px;
+  position: relative;
+  background: #ffffff;
+  border-radius: 17px;
+}
+
+.phone footer div > * {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.phone footer span:first-child {
+  padding-top: 13px;
+  padding-bottom: 10px;
+  padding-left: 19px;
+
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 9px;
+  line-height: 11px;
+  letter-spacing: -0.0703125px;
+  color: #c5c9cc;
+}
+.phone footer span:nth-child(2) {
+  position: absolute;
+  right: 5px;
+  padding-top: 5px;
+}
